@@ -205,7 +205,7 @@ const setUpPage = async (evt) => {
       clearBtn: document.querySelector('#clearBtn'),
       markers: [],
     };
-    if (ons.platform.isIPhone()) {
+    if (!ons.platform.isAndroid()) {
       state.mapDiv.classList.add('ios');
     }
     state.locateBtn.addEventListener('click', locate);
