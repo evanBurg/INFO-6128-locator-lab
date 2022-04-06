@@ -62,7 +62,7 @@
   --notification-background-color: #9B2226;
   --notification-color: white;
   --search-input-background-color: rgba(3, 3, 3, 0.09);
-  --fab-text-color: #ffffff;
+  --fab-text-color: rgba(255,255,255,1);
   --fab-background-color: var(--highlight-color);
   --fab-active-background-color: color-mod(var(--fab-background-color) a(70%));
   --card-background-color: white;
@@ -112,8 +112,8 @@
   --material-text-input-active-color: #3d5afe;
   --material-text-input-inactive-color: #afafaf;
   --material-search-background-color: #fafafa;
-  --material-dialog-background-color: #ffffff;
-  --material-dialog-text-color: var(--material-text-color);
+  --material-dialog-background-color: #FFFFFF;
+  --material-dialog-text-color: rgba(0,0,0,1);
   --material-alert-dialog-background-color: #ffffff;
   --material-alert-dialog-title-color: #31313a;
   --material-alert-dialog-content-color: rgba(49, 49, 58, 0.85);
@@ -128,9 +128,9 @@
   --material-tabbar-text-color: #31313a;
   --material-tabbar-highlight-text-color: #31313a;
   --material-tabbar-highlight-color: rgba(49, 49, 58, 0.1);
-  --material-fab-text-color: #31313a;
-  --material-fab-background-color: #ffffff;
-  --material-fab-active-background-color: rgba(255, 255, 255, 0.75);
+  --material-fab-text-color: rgba(255,255,255,1);
+  --material-fab-background-color: #001219;
+  --material-fab-active-background-color: #001219;
   --material-card-background-color: white;
   --material-card-text-color: rgba(0, 0, 0, 0.54);
   --material-toast-background-color: rgba(0, 0, 0, 0.8);

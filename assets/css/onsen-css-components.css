@@ -5064,8 +5064,9 @@ h4, h5, h6 {
 }
 .dialog-container--material {
   border-radius: 2px;
-  background-color: #ffffff;
-  color: #1f1f21;
+  background-color: #FFFFFF;
+  color: #000000;
+  color: rgba(0, 0, 0, 1);
 }
 .dialog-mask--material {
   background-color: #000000;
@@ -5995,6 +5996,7 @@ ons-fab.fab, ons-speed-dial-item.fab, button.fab {
   line-height: 56px;
   letter-spacing: 0;
   color: #ffffff;
+  color: rgba(255, 255, 255, 1);
   vertical-align: middle;
   text-align: center;
   background-color: #001219;
@@ -6074,6 +6076,7 @@ ons-fab.fab--material, ons-speed-dial-item.fab--material, button.fab--material {
   line-height: 56px;
   letter-spacing: 0;
   color: #ffffff;
+  color: rgba(255, 255, 255, 1);
   vertical-align: middle;
   text-align: center;
   background-color: #001219;
@@ -6090,8 +6093,9 @@ ons-fab.fab--material, ons-speed-dial-item.fab--material, button.fab--material {
   text-decoration: none;
   font-size: 25px;
   line-height: 56px;
-  color: #31313a;
-  background-color: #ffffff;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 1);
+  background-color: #001219;
   box-shadow:
       0 4px 5px 0 rgba(0, 0, 0, .14),
       0 1px 10px 0 rgba(0, 0, 0, .12),
@@ -6103,8 +6107,7 @@ ons-fab.fab--material:active, ons-speed-dial-item.fab--material:active, button.f
       0 8px 10px 1px rgba(0, 0, 0, .14),
       0 3px 14px 2px rgba(0, 0, 0, .12),
       0 5px 5px -3px rgba(0, 0, 0, .4);
-  background-color: #ffffff;
-  background-color: rgba(255, 255, 255, .75);
+  background-color: #001219;
   transition: all 0.2s ease;
 }
 ons-fab.fab--material:focus, ons-speed-dial-item.fab--material:focus, button.fab--material:focus {
