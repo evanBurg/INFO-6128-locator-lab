@@ -19,7 +19,7 @@ const askStartHere = async (coords) => {
     buttonLabels: ["No.", "Yes please!"]
   });
 
-  if (answer !== -1) {
+  if (answer === 1) {
     state.startAtLastLocation = true;
     localforage.setItem('startAtLastLocation', { startHere: true, latlng: coords });
   } else {
