@@ -59,14 +59,14 @@ img {
   margin-top: 10px;
 }
 
-.ons-fab.fab--bottom__right,
-.ons-fab.fab--bottom__left {
+.speed-dial.fab--bottom__right, button.fab--bottom__right, ons-fab.fab--bottom__right,
+.speed-dial.fab--bottom__left, button.fab--bottom__left, ons-fab.fab--bottom__left {
   bottom: 60px;
 }
 
 @media all and (display-mode: standalone) {
-  .ons-fab.fab--bottom__right,
-  .ons-fab.fab--bottom__left {
+  .speed-dial.fab--bottom__right, button.fab--bottom__right, ons-fab.fab--bottom__right,
+  .speed-dial.fab--bottom__left, button.fab--bottom__left, ons-fab.fab--bottom__left {
     bottom: 20px;
   }
 }
