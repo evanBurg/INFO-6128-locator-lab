@@ -37,19 +37,19 @@ img {
   width: 150px;
 }
 
+.page__content {
+  overflow: hidden;
+}
+
 .map-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px;
 }
 
 #map {
-  height: 92vh;
-  width: 95vw;
-  max-width: 95vw;
-  max-height: 92vh;
-  border-radius: 6px;
+  height: calc(100vh - 56px);
+  width: 100vw;
 }
 
 #locateBtn,

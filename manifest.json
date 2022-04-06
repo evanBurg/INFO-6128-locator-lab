@@ -4,8 +4,8 @@
   "start_url": "https://evanburg.github.io/locator-lab/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "E9D8A6",
-  "theme_color": "9B2226",
+  "background_color": "#E9D8A6",
+  "theme_color": "#9B2226",
   "icons": [
     {
       "src": "assets/images/icon.png",
