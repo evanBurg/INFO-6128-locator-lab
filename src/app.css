@@ -61,7 +61,7 @@ img {
 
 .speed-dial.fab--bottom__right, button.fab--bottom__right, ons-fab.fab--bottom__right,
 .speed-dial.fab--bottom__left, button.fab--bottom__left, ons-fab.fab--bottom__left {
-  bottom: 60px;
+  bottom: 65px;
 }
 
 @media all and (display-mode: standalone) {
