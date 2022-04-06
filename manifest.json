@@ -1,0 +1,42 @@
+{
+  "name": "Evan's Locator Lab",
+  "short_name": "Locator",
+  "start_url": "https://evanburg.github.io/locator-lab/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "E9D8A6",
+  "theme_color": "9B2226",
+  "icons": [
+    {
+      "src": "assets/images/icon.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/images/icon.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src":"assets/images/icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "assets/images/maskable_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
