@@ -1,7 +1,7 @@
 {
   "name": "Evan's Locator Lab",
   "short_name": "Locator",
-  "start_url": "https://evanburg.github.io/locator-lab/",
+  "start_url": "https://evanburg.github.io/INFO-6128-locator-lab/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#E9D8A6",
